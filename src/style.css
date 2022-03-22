@@ -1,7 +1,18 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
+}
+
+/* Navbar */
+
+nav {
+  height: 70px;
+  width: auto;
+  display: flex;
+  box-shadow: 0px 2.9825618267059326px 7.456404209136963px 0px
+    rgba(0, 0, 0, 0.1);
+  background-color: blue;
+}
+
+.nav--logo {
+  margin: 10px;
 }
