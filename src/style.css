@@ -51,3 +51,78 @@ nav {
   max-width: 320px;
   font-size: 16px;
 }
+
+/* Card */
+
+.card {
+  margin: 35px 0 30px 30px;
+  line-height: 0;
+}
+
+.card--position {
+  position: relative;
+}
+
+.card--picture {
+  height: 235px;
+  width: 176px;
+}
+
+.picture-tag {
+  height: 20px;
+  width: fit-content;
+  padding: 2px 6px 0 6px;
+  border-radius: 3px;
+  font-size: 11px;
+  background-color: white;
+  position: absolute;
+  top: 6px;
+  left: 7px;
+  line-height: 18px;
+}
+
+.card--info--small {
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  width: 14px;
+  height: 14px;
+  margin-bottom: 2px;
+}
+
+.rating {
+  font-size: 14px;
+  margin-left: 3px;
+}
+
+.reviews {
+  color: rgba(145, 142, 155, 1);
+  margin-left: 3px;
+  font-size: 15px;
+}
+
+.separater {
+  color: rgba(145, 142, 155, 1);
+  font-size: 15px;
+}
+
+.country {
+  font-size: 15px;
+  color: rgba(145, 142, 155, 1);
+}
+
+.card--description {
+  font-size: 12px;
+}
+
+.card--rate {
+  display: flex;
+  font-size: 12px;
+}
+
+.rate {
+  font-weight: 600;
+  margin-right: 4px;
+}
