@@ -8,7 +8,8 @@ export default function App() {
     const cardElements = cardData.map(data => 
             <Card 
                 key={data.id}
-                data={data}
+                // data={data}
+                {...data} // spreads all properties of this item as separate props into my card component
             />
         )
 
