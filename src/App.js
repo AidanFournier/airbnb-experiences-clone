@@ -7,7 +7,7 @@ import cardData from "./data"
 export default function App() {
     const cardElements = cardData.map(data => 
             <Card 
-                id={data.id}
+                key={data.id}
                 title={data.title}
                 description={data.description}
                 price={data.price}
@@ -23,7 +23,9 @@ export default function App() {
         <div>
             <Navbar />
             <Hero />
-            {cardElements}
+            <section className="cards-list">
+                {cardElements}
+            </section>
         </div>
     )
 }
